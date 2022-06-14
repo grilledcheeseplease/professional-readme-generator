@@ -1,10 +1,10 @@
 
 
-# project
+# Projectivity
 
 ## Description
 
-this is a fun project
+This was actually pretty fun.
 
 ## Table of Contents
 
@@ -21,17 +21,15 @@ Commad to run to install dependencies: npm i inquirer
 
 ## Usage
 
-we have fun here
+We have fun here.
 
 ## License
 
-
-    <img src="https://img.shields.io/badge/license-MPL-red" alt="badge-MPL" />
-    
+![Apache](https://img.shields.io/badge/license-Apache-green)
 
 ## How to Contribute
 
-just ask
+Just ask.
 
 ## Tests
 

@@ -10,9 +10,7 @@ const generateLicense = (type) => {
   if (type === "BSD") color = "goldenrod";
 
   return (
-    `
-    ![${type}](https://img.shields.io/badge/license-${type}-${color}) 
-    `
+    `![${type}](https://img.shields.io/badge/license-${type}-${color})`
   );
 };
 
