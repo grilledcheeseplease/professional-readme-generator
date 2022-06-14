@@ -1,24 +1,72 @@
 const fs = require('fs');
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) { }
+const generateLicense = (type) => {
+  let color;
+  if (type === "MPL") color = "red";
+  if (type === "GPL") color = "gray";
+  if (type === "Apache") color = "green";
+  if (type === "MIT") color = "blue";
+  if (type === "CC") color = "orange";
+  if (type === "BSD") color = "goldenrod";
 
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-function renderLicenseBadge(license) {}
+  return (
+    `
+    <h3>License</h3>
+    <img src="https://img.shields.io/badge/license-${type}-${color}" alt="badge-${type}" />
+    `
+  );
+};
 
-// TODO: Create a function that returns the license link
-// If there is no license, return an empty string
-function renderLicenseLink(license) {}
+const generatePage = ({ gitHub, email, projectName, description, license, installation, tests, usage, contribution, }) => {
+  console.log('Generation README...');
+  const template = (`
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
-function renderLicenseSection(license) {}
+# ${projectName}
 
-// TODO: Create a function to generate markdown for README
-function generateMarkdown(data) {
-  return `# ${data.title}
-`;
+## Description
+
+${description}
+
+## Table of Contents
+
+- [Installation](#installation)
+- [Usage](#usage)
+- [License](#license)
+- [Badges](#badges)
+- [Tests](#tests)
+- [Questions](#questions)
+
+## Installation
+
+Commad to run to install dependencies: ${installation}
+
+## Usage
+
+${usage}
+
+## License
+
+${generateLicense(license)}
+
+## How to Contribute
+
+${contribution}
+
+## Tests
+
+Command to run to run tests: ${tests}
+
+## Questions
+
+You can contact me at [${email}](mailto:${email})
+
+[My Github profile](https://github.com/${gitHub})
+  `);
+  fs.writeFileSync('./output/README.md', template);
+  console.log('TEMPLATE GENERATED');
+  process.exit();
 }
 
-module.exports = generateMarkdown;
+module.exports = {
+  generatePage
+};
