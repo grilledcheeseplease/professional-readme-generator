@@ -11,8 +11,7 @@ const generateLicense = (type) => {
 
   return (
     `
-    <h3>License</h3>
-    <img src="https://img.shields.io/badge/license-${type}-${color}" alt="badge-${type}" />
+    ![${type}](https://img.shields.io/badge/license-${type}-${color}) 
     `
   );
 };
