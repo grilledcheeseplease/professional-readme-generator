@@ -1,6 +1,8 @@
-# ${name}
+# ${projectName}
 
 ## Description
+
+${description}
 
 ## Table of Contents
 
@@ -13,11 +15,11 @@
 
 ## Installation
 
-
+Commad to run to install dependencies: ${installation}
 
 ## Usage
 
-
+${usage}
 
 ## License
 
@@ -29,11 +31,11 @@
 
 ## How to Contribute
 
-
+${contribution}
 
 ## Tests
 
-
+Command to run to run tests: ${tests}
 
 ## Questions
 
