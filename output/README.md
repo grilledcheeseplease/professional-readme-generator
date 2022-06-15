@@ -1,10 +1,8 @@
-
-
-# Projectivity
+# Project Awesome
 
 ## Description
 
-This was actually pretty fun.
+This project is awesome
 
 ## Table of Contents
 
@@ -21,7 +19,7 @@ Commad to run to install dependencies: npm i inquirer
 
 ## Usage
 
-We have fun here.
+We have fun here
 
 ## License
 
@@ -29,7 +27,7 @@ We have fun here.
 
 ## How to Contribute
 
-Just ask.
+Just ask
 
 ## Tests
 
