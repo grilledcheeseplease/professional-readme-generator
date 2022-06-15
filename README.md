@@ -13,7 +13,7 @@ I am so excited to share this with you as I have worked very hard to grasp all t
 
 ## Visuals
 
-![Professional README Generator](./images/20-59-05_Trim.mp4)
+![Professional README Generator](https://drive.google.com/file/d/1IdUo9bqGOuzSWvVkrcHHx9mhBGgwjeF1/view?usp=sharing)
 
 ## Resources
 

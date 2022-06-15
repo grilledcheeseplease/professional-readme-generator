@@ -29,7 +29,6 @@ ${description}
 - [Installation](#installation)
 - [Usage](#usage)
 - [License](#license)
-- [Badges](#badges)
 - [Tests](#tests)
 - [Questions](#questions)
 
